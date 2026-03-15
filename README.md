@@ -55,11 +55,16 @@ Key analysis included:
 
 Churn Distribution
 
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution Gender](https://github.com/AakshatSharma7/customer-churn-prediction/blob/e584b308ad7a4269b6b48502028029fdab1f024f/Images/Churn%20distr.%20wrt%20gender.png)
+
+![Churn Distribution Payment](https://github.com/AakshatSharma7/customer-churn-prediction/blob/e584b308ad7a4269b6b48502028029fdab1f024f/Images/Churn%20distr.%20wrt%20payment.png)
+
+![Churn Distribution Security](https://github.com/AakshatSharma7/customer-churn-prediction/blob/e584b308ad7a4269b6b48502028029fdab1f024f/Images/Churn%20distr.%20wrt%20security.png)
+
 
 Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/AakshatSharma7/customer-churn-prediction/blob/e584b308ad7a4269b6b48502028029fdab1f024f/Images/Heatmap.png)
 
 ---
 
@@ -68,8 +73,6 @@ Correlation Heatmap
 The following models were used for churn prediction:
 
 - Logistic Regression
-- Random Forest
-- Decision Tree
 
 Model training steps:
 
@@ -87,7 +90,7 @@ The Random Forest model achieved the best performance.
 
 Example metrics:
 
-Accuracy: **87%**
+Accuracy: **80%**
 
 Key insights:
 
@@ -106,9 +109,6 @@ Top features influencing churn:
 - Tenure
 - Payment method
 
-![Feature Importance](images/feature_importance.png)
-
----
 
 
 ---
